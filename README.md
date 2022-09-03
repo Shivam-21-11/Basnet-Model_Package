@@ -20,6 +20,10 @@
 - The hybrid loss guides the network to learn the transformation between the input image and the ground truth in a three-level hierarchy – pixel-, patch- and map- level – by fusing Binary Cross Entropy (BCE), Structural SIMilarity (SSIM) and Intersectionover- Union (IoU) losses.
 
 # Usage Example
+Pip installing SODBASNET
+
+`pip install SODBASNET`
+
 Importing Basnet Model
 
 ```python
