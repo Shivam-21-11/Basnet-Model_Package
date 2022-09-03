@@ -8,14 +8,14 @@ def readme():
 
 setup(
     name="BASNETMODEL",
-    version="0.0.2",
+    version="0.0.1",
     description="BASNET model created using tensorflow.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.10.6",
+        "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
     ],
     url="https://github.com/Shivam-21-11/Basnet-Model_Package",
