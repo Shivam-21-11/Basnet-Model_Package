@@ -1,8 +1,8 @@
 import tensorflow as tf
 import tensorflow.keras.layers as layers
-from RefUnet import RefUnet
-from Resnet34Layers import reslayer1,reslayer2,reslayer3,reslayer4
-from ResidualBlock import basicBlock
+from BASNET import RefUnet
+from BASNET import reslayer1,reslayer2,reslayer3,reslayer4
+from BASNET import basicBlock
 
 
 class BasNet(tf.keras.Model):
