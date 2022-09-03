@@ -7,7 +7,7 @@ def readme():
 
 
 setup(
-    name="BASNETMODEL",
+    name="BASNET",
     version="0.0.1",
     description="BASNET model created using tensorflow.",
     long_description=readme(),
