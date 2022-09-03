@@ -1,4 +1,5 @@
 # SOD-BASNET-Py
+*This is Official repository for the  SODBASNET python module* 
 # BASNet: Boundary-Aware Salient Object Detection
 
 - Deep Convolutional Neural Networks have been adopted for salient object detection and achieved the state-of-the-art performance. Most of the previous works however focus on region accuracy but not on the boundary quality.
