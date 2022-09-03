@@ -18,5 +18,20 @@
 
 ## Loss
 - The hybrid loss guides the network to learn the transformation between the input image and the ground truth in a three-level hierarchy – pixel-, patch- and map- level – by fusing Binary Cross Entropy (BCE), Structural SIMilarity (SSIM) and Intersectionover- Union (IoU) losses.
+
+# Usage Example
+Importing Basnet Model
+
+```python
+from BASNET import BasNet
+from BASNET import iou_loss,ssim_loss,binary_crossentropy
+
+model = BasNet()
+model.compile(optimizer='adam',
+loss=[iou_loss,ssim_loss,binary_crossentropy],
+metrics = ['accuracy'])
+
+```
+
 ## Thank You 
 - This is my attempt to build the Basnet model using the research paper . If you find any error or mistakes let me know . Love all the feedbacks.
