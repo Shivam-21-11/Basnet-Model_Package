@@ -13,7 +13,7 @@ def iou(y_true, y_pred):
 
 def iou_loss(y_true ,y_pred):
     '''
-    Returns Iou Loss
+    Returns IOU Loss
     '''
     return 1 - iou(y_true ,y_pred)
 
