@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="SODBASNET",
-    version="0.0.3",
+    version="0.0.4",
     description="BASNET model created using tensorflow.",
     long_description=readme(),
     long_description_content_type="text/markdown",
