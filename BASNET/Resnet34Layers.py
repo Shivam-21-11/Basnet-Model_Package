@@ -1,5 +1,5 @@
 import tensorflow as tf
-from BASNET import basicBlock
+from BASNET.ResidualBlock import basicBlock
 
 
 class reslayer1(tf.keras.Model):
