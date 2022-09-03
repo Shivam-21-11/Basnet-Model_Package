@@ -19,7 +19,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
-    url="https://github.com/RobertoPrevato/FooDemo",
+    url="https://github.com/Shivam-21-11/Basnet-Model_Package",
     author="Shivam Singh",
     author_email="Shivamsingh2111@gmail.com",
     keywords="Machine Learning",
